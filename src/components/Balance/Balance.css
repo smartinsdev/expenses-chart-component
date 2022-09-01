@@ -1,0 +1,26 @@
+.box-balance {
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5em;
+}
+
+.balance {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: hsl(33, 100%, 98%);
+    gap: 12px
+}
+
+.balance p {
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.brand {
+    width: 72px;
+    height: auto;
+}

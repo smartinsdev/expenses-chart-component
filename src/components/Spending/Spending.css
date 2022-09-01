@@ -1,0 +1,55 @@
+.wrap-spending {
+    background-color: #FFFBFA;
+    border-radius: 18px;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.wrap-spending h1 {
+    color:hsl(25, 47%, 15%);
+    font-size: 1.6rem;
+}
+
+.line {
+    height: 2px;
+    background-color:hsl(27, 66%, 92%, 50%);
+}
+
+.wrap-month {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.total-value {
+    display: flex;
+    flex-direction: column;
+    gap: 4px
+}
+
+.total-value span {
+    font-size: 16px;
+    display: block;
+    color: hsl(28, 10%, 53%);
+}
+.total-value p {
+    color: hsl(25, 47%, 15%);
+    font-weight: 700;
+    font-size: 2.22rem;
+    line-height: 1.1;
+}
+
+.percent-month {
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    color: hsl(25, 47%, 15%);
+    font-weight: 700;  
+}
+.percent-month span {
+    color: hsl(28, 10%, 53%);
+    font-size: 16px;
+    font-weight: 400;
+}
