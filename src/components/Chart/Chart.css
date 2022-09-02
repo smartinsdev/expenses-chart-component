@@ -16,15 +16,16 @@
 
 .week span {
     color: hsl(28, 10%, 53%);
-    font-size: 15px;
+    font-size: 0.778rem;
 }
 
 .bar {
     background-color: hsl(10, 79%, 65%);
     width: 100%;
-    border-radius: 8px;
+    border-radius: 4px;
     cursor: pointer;
     transition: background .3s ease;
+    position: relative;
 }
 
 .bar:hover {
@@ -40,12 +41,15 @@
 }
 
 .tooltip {
+    position: absolute;
+    top: -35px;
+    left: -4px;
+    z-index: 1;
     background-color: hsl(25, 47%, 15%);
     color: hsl(33, 100%, 98%);
-    font-size: 14px;
-    padding: 4px;
-    margin-bottom: 2px;
-    border-radius: 8px;
+    font-size: 0.889rem;
+    padding: 2px 4px;
+    border-radius: 4px;
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.2s linear;

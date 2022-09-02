@@ -16,14 +16,15 @@ const ChartItem: React.FunctionComponent<IChartItemProps> = ({
   return (
     <div className="week">
       <div
-        className={`tooltip ${showAmount ? "hover" : ""}`}
-      >{`$${amount}`}</div>
+        onMouseEnter={() => setShowAmount(true)}
+        onMouseLeave={() => setShowAmount(false)}
+        className={`bar ${maxAmount ? "cyan" : ""}`}
+        style={{ height: `calc(${amount}px * 3)` }}
+      >
         <div
-          onMouseEnter={() => setShowAmount(true)}
-          onMouseLeave={() => setShowAmount(false)}
-          className={`bar ${ maxAmount? "cyan" : ""}`}
-          style={{ height: `calc(${amount}px * 3)` }}
-        ></div>
+          className={`tooltip ${showAmount ? "hover" : ""}`}
+        >{`$${amount}`}</div>
+      </div>
       <span>{day}</span>
     </div>
   );

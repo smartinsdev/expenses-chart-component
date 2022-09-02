@@ -10,17 +10,17 @@
 .balance {
     display: flex;
     flex-direction: column;
-    font-size: 15px;
+    font-size: 0.778rem;
     color: hsl(33, 100%, 98%);
     gap: 12px
 }
 
 .balance p {
     font-weight: 700;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 .brand {
-    width: 72px;
+    width: 54px;
     height: auto;
 }

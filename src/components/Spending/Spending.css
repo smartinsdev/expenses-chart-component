@@ -9,7 +9,7 @@
 
 .wrap-spending h1 {
     color:hsl(25, 47%, 15%);
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 .line {
@@ -29,15 +29,18 @@
     gap: 4px
 }
 
+.total-value span, 
+.percent-month span {
+    font-size: 0.778rem;
+}
+
 .total-value span {
-    font-size: 16px;
-    display: block;
     color: hsl(28, 10%, 53%);
 }
 .total-value p {
     color: hsl(25, 47%, 15%);
     font-weight: 700;
-    font-size: 2.22rem;
+    font-size: 1.9rem;
     line-height: 1.1;
 }
 
@@ -50,6 +53,5 @@
 }
 .percent-month span {
     color: hsl(28, 10%, 53%);
-    font-size: 16px;
     font-weight: 400;
 }
